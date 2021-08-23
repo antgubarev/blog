@@ -1,8 +1,8 @@
 baseurl = "https://antgubarev.dev"
-title = "antgubarev"
 theme = "antgubarev"
-languagecode = "ru"
-defaultcontentlanguage = "ru"
+
+languagecode = 'en'
+defaultcontentlanguage = 'en'
 
 paginate = 5
 canonifyurls = true
@@ -15,9 +15,9 @@ disqusShortname = "antgubarev"
 
 [params]
     author = "Anton Gubarev"
-    info = "Web architect and engineer"
-    description = "Anton Gubarev's personal website"
-    keywords = "губарев,gubarev,web,consulting,architecture,архитектура,highload,хайлоад"
+    info = "Software engineer"
+    description = "Anton Gubarev's personal website about web software development"
+    keywords = "губарев,gubarev,antgubarev,web,highload,хайлоад,goland,devops"
     avatarurl = "images/photo.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
@@ -25,7 +25,7 @@ disqusShortname = "antgubarev"
 
     footercontent = ""
 
-    hidecredits = false
+    hidecredits = true
     hidecopyright = false
 
     rtl = false
@@ -45,35 +45,12 @@ disqusShortname = "antgubarev"
     weight = 3
     url = "https://twitter.com/antgubarev/"
 [[params.social]]
-    name = "Vk"
-    icon = "fa fa-vk fa-2x"
+    name = "Telegram"
+    icon = "fa fa-telegram fa-2x"
     weight = 3
-    url = "https://vk.com/antgubarev/"
+    url = "https://t.me/antgubarev"
 [[params.social]]
     name = "LinkedIn"
     icon = "fa fa-linkedin fa-2x"
     weight = 3
     url = "https://www.linkedin.com/in/antgubarev/"
-[[params.social]]
-    name = "Telegram"
-    icon = "fa fa-telegram fa-2x"
-    weight = 3
-    url = "https://t.me/antgubarev"
-
-# Menu links
-[[menu.main]]
-    name = "Обо мне"
-    weight = 1
-    url = "/about/"
-[[menu.main]]
-     name = "Проекты"
-     weight = 2
-     url = "/projects/"
-[[menu.main]]
-     name = "Рассказываю"
-     weight = 3
-     url = "/talks/"
-[[menu.main]]
-    name = "Канал в телеге"
-    weight = 4
-    url = "https://t.me/devlead"

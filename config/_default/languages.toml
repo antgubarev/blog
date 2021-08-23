@@ -1,0 +1,36 @@
+[en]
+    title = 'Antgubarev'
+    languageName = "en"
+    weight = 1
+    contentDir = 'content/en'
+
+# Menu links
+#[[en.menu.main]]
+#    name = "About"
+#    weight = 1
+#    url = "/about/"
+
+[ru]
+    languagedirection = 'ru'
+    title = 'antgubarev'
+    languageName = "ru"
+    weight = 2
+    contentDir = 'content/ru'
+
+# Menu links
+[[ru.menu.main]]
+    name = "Обо мне"
+    weight = 1
+    url = "/about/"
+[[ru.menu.main]]
+    name = "Проекты"
+    weight = 2
+    url = "/projects/"
+[[ru.menu.main]]
+    name = "Рассказываю"
+    weight = 3
+    url = "/talks/"
+[[ru.menu.main]]
+    name = "Канал в телеге"
+    weight = 4
+    url = "https://t.me/devlead"
