@@ -1,26 +1,14 @@
-{{ if not .Site.Params.hideFooter | default false }}
-  <footer class="footer">
-    <section class="container">
-      {{ with .Site.Params.footerContent | safeHTML }}
-        <p>{{ . }}</p>
-      {{ end }}
-      {{ if not .Site.Params.hideCopyright }}
-        ©
-        {{ if (and (.Site.Params.since) (lt .Site.Params.since now.Year)) }}
-          {{ .Site.Params.since }} -
-        {{ end }}
-        {{ now.Year }}
-        {{ with .Site.Params.author }} {{ . }} {{ end }}
-      {{ end }}
-      {{ if not .Site.Params.hideCredits }}
-        {{ if not .Site.Params.hideCopyright }} · {{ end }}
-        {{ i18n "powered_by" }} <a href="https://gohugo.io/">Hugo</a> & <a href="https://github.com/luizdepra/hugo-coder/">Coder</a>.
-      {{ end }}
-      {{ if .Site.Params.commit }}
-        {{ if .GitInfo }}
-          [<a href="{{ .Site.Params.commit }}/{{ .GitInfo.Hash }}">{{ .GitInfo.AbbreviatedHash }}</a>]
-        {{ end }}
-      {{ end }}
-    </section>
-  </footer>
-{{ end }}
+<div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+        <p class="col-md-4 mb-0 text-muted">© 2021 Anton Gubarev</p>
+        <ul class="nav col-md-4 justify-content-end">
+            {{ range $.Site.Home.AllTranslations }}
+                {{ if ne $.Site.Language .Language }}
+                    <li class="nav-item">
+                        <a href="{{ .Permalink }}" class="nav-link px-2 text-muted">{{ .Language.LanguageName }}</a>
+                    </li>
+                {{ end }}    
+            {{ end }}
+        </ul>
+    </footer>
+</div>

@@ -1,0 +1,12 @@
+en:
+    title: "Anton Gubarev"
+    languageName: "eng"
+    weight: 1
+    contentDir: "content/en"
+
+ru:
+    languagedirection: "ru"
+    title: "Anton Gubarev"
+    languageName: "rus"
+    weight: 2
+    contentDir: "content/ru"

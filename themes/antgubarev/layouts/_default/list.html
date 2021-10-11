@@ -1,11 +1,18 @@
-{{ define "title" }}
-  {{- if eq .Kind "term" -}}
-    {{- i18n .Data.Singular | title -}}
-    {{- print ": " -}}
-  {{- end -}}
-
-  {{- .Title }} · {{ .Site.Title -}}
-{{ end }}
-{{ define "content" }}
-  {{ partial "list.html" . }}
+{{ define "main" }}
+    <div class="container">
+        <div class="posts">
+            {{ range .Pages.ByDate }}
+            <div class="post mb-5">
+                <h3>{{.Title}}</h3>
+                <div>{{.Date.Format "2006-01-02"}}</div>
+                <p>{{ .Summary }}</p>
+                {{ if .Truncated }}
+                <div>
+                    <a href="{{ .RelPermalink }}">Read More…</a>
+                </div>
+                {{ end }}
+            </div>
+            {{ end }}
+        </div>
+    </div>
 {{ end }}
