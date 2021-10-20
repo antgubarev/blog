@@ -4,9 +4,8 @@
 
     {{ hugo.Generator }}
 
-    {{ with .Site.Params.description }}
-    <meta name="description" content="{{ . }}">
-    {{ end }}
+    <meta name="keywords" content="{{ if .Params.keywords }}{{ .Params.keywords }}{{ else }}{{ .Site.Params.keywords }}{{ end }}" />
+    <meta name="description" content="{{ if .Params.Description }}{{ .Params.Description }}{{ else }}{{ .Site.Params.Description }}{{ end }}">
 
     {{ $bootstrapCss := "css/bootstrap.min.css" }}
     <link rel="stylesheet" href="{{ $bootstrapCss | absURL }}" />

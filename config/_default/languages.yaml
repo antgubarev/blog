@@ -3,6 +3,9 @@ en:
     languageName: "eng"
     weight: 1
     contentDir: "content/en"
+    params:
+        description: "Anton Gubarev's personal website about web software development"
+        keywords: "gubarev,antgubarev,web,highload,goland,devops"
 
 ru:
     languagedirection: "ru"
@@ -10,3 +13,6 @@ ru:
     languageName: "rus"
     weight: 2
     contentDir: "content/ru"
+    params:
+        description: "Персональный блог Антона Губарева о разработке"
+        keywords: "губарев"
