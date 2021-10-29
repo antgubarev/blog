@@ -1,11 +1,18 @@
 ---
 title: Материализованные представления и ReplacingMergeTree в Clickhouse (ч2)
 date: "2021-10-21"
-keywords: "clickhouse, replacingmergetree"
+keywords: "clickhouse, replacingmergetree, replacing merge tree"
 description: "работа с движком ReplacingMergeTree в ClickHouse на примерах"
+aliases:
+    - "/ru/posts/clickhousereplmt/"
 ---
 
-[В предыдущей части]({{< ref "/posts/clickhousemv.md" >}}) я разобрал на примерах работу с материализованными представлениями. Теперь попробуем добавить сюда [ReplacingMergeTree](https://clickhouse.com/docs/ru/engines/table-engines/mergetree-family/replacingmergetree/). Как описано в документации
+- Часть 1. [Материализованные представления]({{< ref "/posts/2021/oct/1_clickhouse_mv.md" >}})
+- **Часть 2. ReplacingMergeTree**
+- Часть 3. Материализованные представления и ReplacingMergeTree в одном флаконе
+
+
+[В предыдущей части]({{< ref "/posts/2021/oct/1_clickhouse_mv.md" >}}) я разобрал на примерах работу с материализованными представлениями. Теперь попробуем добавить сюда [ReplacingMergeTree](https://clickhouse.com/docs/ru/engines/table-engines/mergetree-family/replacingmergetree/). Как описано в документации
 
 > выполняет удаление дублирующихся записей с одинаковым значением ключа сортировки (секция ORDER BY, не PRIMARY KEY).
 
