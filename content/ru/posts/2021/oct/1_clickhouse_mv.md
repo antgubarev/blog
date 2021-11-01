@@ -12,7 +12,7 @@ aliases:
 
 - **Часть 1. Материализованные представления**
 - Часть 2. [ReplacingMergeTree]({{< ref "/posts/2021/oct/2_clickhouse_replmt.md" >}}) 
-- Часть 3. Материализованные представления и ReplacingMergeTree в одном флаконе
+- Часть 3. [Материализованные представления и ReplacingMergeTree в одном флаконе]({{< ref "/posts/2021/oct/3_clickhouse_mv_replmt.md" >}})
 
 ## Материализованные представления
 
