@@ -14,10 +14,7 @@ Senior backend engineer из Воронежа. В настоящий момен�
 
 #### Статьи
 - [Built-in функции для Rego]({{< ref "/posts/2022/mar/1_opa.md" >}}) 
-- ClickHouse Часть 1. [Материализованные представления]({{< ref "/posts/2021/oct/1_clickhouse_mv.md" >}})
-- ClickHouse Часть 2. [ReplacingMergeTree]({{< ref "/posts/2021/oct/2_clickhouse_replmt.md" >}}) 
-- ClickHouse Часть 3. [Материализованные представления и ReplacingMergeTree в одном флаконе]({{< ref "/posts/2021/oct/3_clickhouse_mv_replmt.md" >}})
-
+- ClickHouse ReplacingMergeTree [Часть 1](https://habr.com/ru/post/657579/)
  
 
 #### Контакты
