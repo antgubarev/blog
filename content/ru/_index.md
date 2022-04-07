@@ -19,5 +19,6 @@ Senior backend engineer из Воронежа. В настоящий момен�
  
 
 #### Контакты
+- [LinkedIn](https://www.linkedin.com/in/antgubarev/)
 - [Telegram](https://t.me/antgubarev)
 - [Habr](https://habr.com/ru/users/antgubarev/)
