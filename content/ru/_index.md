@@ -13,6 +13,7 @@ Senior backend engineer из Воронежа. В настоящий момен�
 Выступаю на [митапах и конференциях]({{< relref path="talks.md" >}}), провожу [публичные собеседования](https://www.youtube.com/playlist?list=PLGePdqSd3VuUsOVAfXvzEqS8A8xCSS6P8).
 
 #### Статьи
+- [How to Use GoReleaser to Automate GoLang Build Releases](https://hackernoon.com/how-to-use-goreleaser-to-automate-golang-build-releases)
 - [Built-in функции для Rego](https://hackernoon.com/custom-rego-function-by-example) 
 - ClickHouse ReplacingMergeTree [Часть 1](https://habr.com/ru/post/657579/)
 - ClickHouse ReplacingMergeTree [Часть 2](https://habr.com/ru/post/659413/)
