@@ -4,11 +4,8 @@ slug: /talks
 ---
 
 ### 2021
-- 12 марта 2021 [Работа архитектора](https://soundcloud.com/between-braces/12-anton-gubarev-rabota-arkhitektora) 
+- 12 марта 2021 [Работа архитектора](https://vk.com/podcast-194136186_456239029) 
   в подкасте "Между скобок"
-- 22 февраля 2021 [Онлайн PHP митап](https://www.youtube.com/watch?v=eLjcP6r4YJ8) 
-  Организовал и провел митап про PHP,MySql,нагрузках и асинхронности. 
-  [Описание и анонс на Хабре](https://habr.com/ru/company/vseinstrumenti/news/t/540566/)
 
 ### 2020
 - 30 мая 2020 [Онлайн PHP митап](https://www.youtube.com/watch?v=ZYMEb_30kuo&t=548s) 
