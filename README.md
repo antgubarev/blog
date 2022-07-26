@@ -1,4 +1,4 @@
-This is my personal site: [antgubarev.dev](https://antgubarev.dev)
+This is my personal site: [antgubarev.me](https://antgubarev.me)
 
 ## License
 

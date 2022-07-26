@@ -1,4 +1,4 @@
-baseurl: "https://antgubarev.dev"
+baseurl: "https://antgubarev.me"
 theme: "antgubarev"
 
 languageCode: "en-us"
@@ -7,7 +7,7 @@ defaultContentLanguage: "en"
 params:
     author: "Anton Gubarev"
     info: "Software engineer"
-    description: "Anton Gubarev's personal website about web software development"
-    keywords: "губарев,gubarev,antgubarev,web,highload,хайлоад,goland,devops"
+    description: "Anton Gubarev's personal website"
+    keywords: "губарев,gubarev,antgubarev,highload,техлидошная"
     customCSS:
         - "css/custom.css"
