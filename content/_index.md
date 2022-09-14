@@ -15,7 +15,10 @@ I worked not only in companies, but also engaged in outsourcing for the first ye
 
 I am interested in infrastructure, architecture of distributed applications, construction of failover services, SOA, devops. I write the code on go and bit python.
 
-#### Writing 
+#### Writing
+- [Using the Kubernetes Controller for Envoy (Part 2)](https://hackernoon.com/using-the-kubernetes-controller-for-envoy-part-2)
+- [Using the Kubernetes Controller for Envoy](https://hackernoon.com/using-the-kubernetes-controller-for-envoy)
+- [Testing cli tool with logging](https://dev.to/antgubarev/testing-cli-tool-with-logging-4h7)
 - [RBAC with OPA](https://dev.to/antgubarev/rbac-with-opa-3i4h)
 - [Extending NeoVim with Lua](https://dev.to/antgubarev/extending-neovim-with-lua-30gh)
 - [Autocomplete with Fzf](https://dev.to/antgubarev/autocomplete-with-fzf-28eb)
