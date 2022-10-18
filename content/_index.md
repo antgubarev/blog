@@ -28,8 +28,11 @@ I am interested in infrastructure, architecture of distributed applications, con
 - [How to Use GoReleaser to Automate GoLang Build Releases](https://hackernoon.com/how-to-use-goreleaser-to-automate-golang-build-releases)
 - [Built-in Rego function](https://hackernoon.com/custom-rego-function-by-example) 
 
+#### Nominations
+- [Hackernoon Noonies](https://www.noonies.tech/2022/programming/2022-hackernoon-contributor-of-the-year-github)
+
 #### Teaching
-I'm a head of [DevOpsBootcamp course at OTUS](https://otus.ru/lessons/devops_bootcamp/). Also I'm a teacher in this course.
+I'm a head of [DevOpsBootcamp at OTUS](https://otus.ru/lessons/devops_bootcamp/). Also I'm a teacher in this course.
 
 #### Speaking
 - 2022 [Evrone devops meetup](https://www.youtube.com/watch?v=uBTVDmHO5BQ) Collecting consumption resources from serveral clusters
@@ -40,6 +43,12 @@ I'm a head of [DevOpsBootcamp course at OTUS](https://otus.ru/lessons/devops_boo
 - 2019 [Google Developes Day Voronezh](https://www.youtube.com/watch?v=pE-vh2slY_c) Remote work
 - 2019 [Podcast "Radioma"](http://radioma.org/radioma-se-7.html). 
 - 2019 [Podcast "Teamlead will call"](https://www.youtube.com/watch?v=N3SdSJECc1A) 
+
+#### Judging
+- [Bracket Hack 1.0](https://brackethacks-1.devpost.com/)
+- [Eco Hack](https://ecohacks.devpost.com/)
+- [Autumnn Hacks](https://autumnnhacks.devpost.com/)
+- [Hack The Mountains](https://www.hackthemountain.tech/judges)
 
 #### Telegram channel
 I share experience and useful tools in [telegram channel](https://t.me/devlead).
