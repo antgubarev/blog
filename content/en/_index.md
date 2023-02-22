@@ -1,8 +1,6 @@
 ---
 title: Anton Gubarev 
 ---
-**/home/antgubarev**
-
 *In this page I collected main information about me*
 
 Software engineer with 11 years of experience. Focused on fault tolerant, distributed systems, highload, golang, high availability services, 
@@ -49,11 +47,3 @@ I'm a head of [DevOpsBootcamp at OTUS](https://otus.ru/lessons/devops_bootcamp/)
 - [Eco Hack](https://ecohacks.devpost.com/)
 - [Autumnn Hacks](https://autumnnhacks.devpost.com/)
 - [Hack The Mountains](https://www.hackthemountain.tech/judges)
-
-#### Telegram channel
-I share experience and useful tools in [telegram channel](https://t.me/devlead).
-
-#### Contacts
-- [LinkedIn/antgubarev](https://www.linkedin.com/in/antgubarev/)
-- [GitHub/antgubarev](https://github.com/antgubarev)
-- [Telegram/antgubarev](https://t.me/antgubarev)

@@ -1,0 +1,64 @@
+theme = "etch"
+languageCode = "en-US"
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+defaultContentLanguage = "en"
+baseURL = "https://antgubarev.tech"
+
+[languages]
+
+  [languages.en]
+    title = 'Anton Gubarev'
+	 contentDir = "content/en"
+    weight = 1
+
+  [languages.en.menu]
+
+	  [[languages.en.menu.main]]
+		 identifier = "contacts"
+		 name = "contacts"
+		 title = "contacts"
+		 url = "/contacts/"
+		 weight = 10
+
+	  [[languages.en.menu.main]]
+		 identifier = "ru"
+		 name = "ru"
+		 title = "ru"
+		 url = "/ru/"
+		 weight = 20
+
+  [languages.ru]
+    title = 'Anton Gubarev'
+	 contentDir = "content/ru"
+    weight = 2
+
+  [languages.ru.menu]
+
+	  [[languages.ru.menu.main]]
+		 identifier = "contacts"
+		 name = "контакты"
+		 title = "Контакты"
+		 url = "/ru/contacts/"
+		 weight = 10
+
+	  [[languages.ru.menu.main]]
+		 identifier = "en"
+		 name = "en"
+		 title = "en"
+		 url = "/"
+		 weight = 30
+
+[params]
+  description = "Anton Gubarev's personal website"
+  copyright = "Copyright © 2023 Anton Gubarev"
+  dark = "auto"
+  highlight = true
+  ymCode = "92567493"
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  unsafe = true
