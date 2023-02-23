@@ -1,4 +1,4 @@
-theme = "antgubarev"
+theme = "tech"
 languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true

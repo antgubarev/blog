@@ -1,0 +1,9 @@
+{{ $posts := (where .Site.RegularPages "Section" "==" "posts") }}
+{{ if gt (len $posts) 0 }}
+<h3>{{ i18n "posts.title" }}</h3>
+<ul id="posts">
+{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+    {{ .Render "li" }}
+{{- end }}
+</ul>
+{{end}}

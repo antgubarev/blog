@@ -1,0 +1,6 @@
+{{ define "main" }}
+{{ .Content }}
+{{- partial "posts.html" . -}}
+{{- partial "ym.html" . -}}
+{{ template "_internal/google_analytics_async.html" . }}
+{{ end }}
