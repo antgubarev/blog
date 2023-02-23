@@ -1,4 +1,4 @@
-theme = "etch"
+theme = "antgubarev"
 languageCode = "en-US"
 enableInlineShortcodes = true
 pygmentsCodeFences = true
