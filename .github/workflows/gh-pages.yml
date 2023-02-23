@@ -28,6 +28,7 @@ jobs:
         if: github.ref == 'refs/heads/master'
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          commit_message: ${{ github.event.head_commit.message }}
           cname: antgubarev.tech
           publish_branch: gh-pages
           publish_dir: ./public
