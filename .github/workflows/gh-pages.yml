@@ -32,3 +32,4 @@ jobs:
           cname: antgubarev.tech
           publish_branch: gh-pages
           publish_dir: ./public
+          keep_files: true
