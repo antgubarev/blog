@@ -1,6 +1,17 @@
 {{ define "main" }}
 {{ .Content }}
-{{- partial "posts.html" . -}}
+
+{{ $posts := (where .Site.RegularPages "Section" "==" "posts") }}
+{{ if gt (len $posts) 0 }}
+
+
+<h2>Последнее</h2>
+<ul id="posts" class="posts">
+{{- range first 4 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+    {{ .Render "li" }}
+{{- end }}
+</ul>
+{{end}}
+
 {{- partial "ym.html" . -}}
-{{ template "_internal/google_analytics_async.html" . }}
 {{ end }}

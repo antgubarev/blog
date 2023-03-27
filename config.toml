@@ -35,6 +35,13 @@ baseURL = "https://antgubarev.tech"
     weight = 2
 
   [languages.ru.menu]
+	  
+	  [[languages.ru.menu.main]]
+		identifier = "posts"
+		name = "посты"
+		title = "Посты"
+		url = "/ru/posts/"
+		weight = 1
 
 	  [[languages.ru.menu.main]]
 		 identifier = "contacts"
@@ -58,7 +65,7 @@ baseURL = "https://antgubarev.tech"
   ymCode = "92567493"
 
 [permalinks]
-  posts = "/:title/"
+  posts = "/:year/:month/:slug/"
 
 [markup.goldmark.renderer]
   unsafe = true
