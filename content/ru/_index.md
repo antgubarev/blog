@@ -3,9 +3,10 @@ title: Anton Gubarev
 ---
 
 Инженер с 11 летним опытом. Восновном занимаюсь распределенными, нагруженными приложениями.
-Пишу код на go/python. [terminal и vim пользователь](https://github.com/antgubarev/dotfiles).
-Участвую в разработке PaaS в Авито. Преподаю в ОТУС и руковожу курсом [DevOpsBootcamp](https://otus.ru/lessons/devops_bootcamp/), 
-провожу вебинары. Пишу статьи. Выступаю на конференциях и митапах. Делюсь полезным опытом в канале [Техлидошная](https://t.me/devlead)
+Пишу код на go/python. Участвую в разработке PaaS в Авито. 
+Преподаю в ОТУС и руковожу курсом [DevOpsBootcamp](https://otus.ru/lessons/devops_bootcamp/), 
+провожу вебинары. Пишу статьи. Выступаю на конференциях и митапах. 
+Делюсь полезным опытом в канале [Техлидошная](https://t.me/devlead)
 
 [HackerNoon contributor of the year GitHub 2022](https://noonies.hackernoon.com/2022/programming/2022-hackernoon-contributor-of-the-year-github)
 
