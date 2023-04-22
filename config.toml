@@ -16,22 +16,38 @@ baseURL = "https://antgubarev.tech"
   [languages.en.menu]
 
 	  [[languages.en.menu.main]]
-		 identifier = "contacts"
-		 name = "contacts"
-		 title = "contacts"
-		 url = "/contacts/"
+		 identifier = "github"
+		 name = "github"
+		 title = "github"
+		 url = "https://github.com/antgubarev"
 		 weight = 10
+	   
+	  [[languages.en.menu.main]]
+		 identifier = "linkedin"
+		 name = "linkedin"
+		 title = "github"
+		 url = "https://www.linkedin.com/in/antgubarev/"
+		 weight = 20
+
+	  [[languages.ru.menu.main]]
+		identifier = "cv"
+		name = "CV"
+		title = "cv"
+		url = "https://drive.google.com/file/d/1O2KRaw0AKy5mDJxwVaWim1jpYyj9LeVo/view?usp=sharing"
+		weight = 30
+		[languages.ru.menu.main.params]
+			target = "_blank"
 
 	  [[languages.en.menu.main]]
 		 identifier = "ru"
 		 name = "ru"
 		 title = "ru"
 		 url = "/ru/"
-		 weight = 20
+		 weight = 40
 
   [languages.ru]
     title = 'Anton Gubarev'
-	 contentDir = "content/ru"
+	contentDir = "content/ru"
     weight = 2
 
   [languages.ru.menu]
@@ -44,18 +60,38 @@ baseURL = "https://antgubarev.tech"
 		weight = 1
 
 	  [[languages.ru.menu.main]]
-		 identifier = "contacts"
-		 name = "контакты"
-		 title = "Контакты"
-		 url = "/ru/contacts/"
-		 weight = 10
+		identifier = "github"
+		name = "github"
+		title = "github"
+		url = "https://github.com/antgubarev"
+		weight = 10
+		[languages.ru.menu.main.params]
+			target = "_blank"
+	   
+	  [[languages.ru.menu.main]]
+		identifier = "linkedin"
+		name = "linkedin"
+		title = "github"
+		url = "https://www.linkedin.com/in/antgubarev/"
+		weight = 20
+		[languages.ru.menu.main.params]
+			target = "_blank"
+
+	  [[languages.ru.menu.main]]
+		identifier = "cv"
+		name = "CV"
+		title = "cv"
+		url = "https://drive.google.com/file/d/1O2KRaw0AKy5mDJxwVaWim1jpYyj9LeVo/view?usp=sharing"
+		weight = 30
+		[languages.ru.menu.main.params]
+			target = "_blank"
 
 	  [[languages.ru.menu.main]]
 		 identifier = "en"
 		 name = "en"
 		 title = "en"
 		 url = "/"
-		 weight = 30
+		 weight = 40
 
 [params]
   description = "Anton Gubarev's personal website"

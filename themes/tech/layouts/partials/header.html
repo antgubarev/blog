@@ -1,12 +1,13 @@
 <header id="banner">
-	<h2><a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}">{{ .Site.Title }}</a></h2>
-   <nav>
+    <h2><a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}">{{ .Site.Title }}</a></h2>
+    <nav>
         <ul>
             {{ range .Site.Menus.main.ByWeight -}}
             <li>
-                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}">{{- .Name -}}</a>{{ .Post }}
+                {{ .Pre }}<a href="{{ .URL }}" title="{{ .Title }}" {{ if (isset .Params "target" ) }}
+                    target="{{ .Params.Target }}" {{ end }}>{{- .Name -}}</a>{{ .Post }}
             </li>
             {{- end }}
         </ul>
-   </nav>
+    </nav>
 </header>
