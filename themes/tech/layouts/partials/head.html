@@ -4,9 +4,11 @@
     {{ with .Site.Params.description -}}
     <meta name="description" content="{{ . }}">
     {{ end }}
-    {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
+    {{ printf `
+    <link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
     {{ with .OutputFormats.Get "rss" -}}
-        {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+    {{ printf `
+    <link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
     {{ end -}}
 
     {{ $resources := slice -}}
@@ -17,15 +19,21 @@
 
     {{ $dark := .Site.Params.dark | default "auto" -}}
     {{ if not (eq $dark "off") -}}
-        {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
+    {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
     {{ end -}}
 
+    <!-- fonts -->
+    {{ $resources = $resources | append (resources.Get "css/fontawesome.min.css") -}}
+    {{ $resources = $resources | append (resources.Get "css/fonts.regular.min.css") -}}
+    {{ $resources = $resources | append (resources.Get "css/fonts.brands.min.css") -}}
+
     {{ if .Site.Params.highlight -}}
-        {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
+    {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
     {{ end -}}
 
     {{ $css := $resources | resources.Concat "css/style.css" | minify }}
-    {{ printf `<link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
+    {{ printf `
+    <link rel="stylesheet" href="%s">` $css.RelPermalink | safeHTML }}
 
     <link rel="canonical" href="{{ .Permalink }}" />
     <title>{{ .Title }}</title>

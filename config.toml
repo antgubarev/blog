@@ -10,32 +10,18 @@ baseURL = "https://antgubarev.tech"
 
   [languages.en]
     title = 'Anton Gubarev'
-	 contentDir = "content/en"
+	contentDir = "content/en"
     weight = 1
 
   [languages.en.menu]
 
 	  [[languages.en.menu.main]]
-		 identifier = "github"
-		 name = "github"
-		 title = "github"
-		 url = "https://github.com/antgubarev"
-		 weight = 10
-	   
-	  [[languages.en.menu.main]]
-		 identifier = "linkedin"
-		 name = "linkedin"
-		 title = "github"
-		 url = "https://www.linkedin.com/in/antgubarev/"
-		 weight = 20
-
-	  [[languages.ru.menu.main]]
 		identifier = "cv"
 		name = "CV"
 		title = "cv"
 		url = "https://drive.google.com/file/d/1O2KRaw0AKy5mDJxwVaWim1jpYyj9LeVo/view?usp=sharing"
 		weight = 30
-		[languages.ru.menu.main.params]
+		[languages.en.menu.main.params]
 			target = "_blank"
 
 	  [[languages.en.menu.main]]
@@ -53,34 +39,23 @@ baseURL = "https://antgubarev.tech"
   [languages.ru.menu]
 	  
 	  [[languages.ru.menu.main]]
-		identifier = "posts"
-		name = "посты"
-		title = "Посты"
-		url = "/ru/posts/"
+		identifier = "webinars"
+		name = "Вебинары"
+		title = "Вебинары"
+		url = "/ru/tags/webinar/"
 		weight = 1
 
 	  [[languages.ru.menu.main]]
-		identifier = "github"
-		name = "github"
-		title = "github"
-		url = "https://github.com/antgubarev"
-		weight = 10
-		[languages.ru.menu.main.params]
-			target = "_blank"
-	   
-	  [[languages.ru.menu.main]]
-		identifier = "linkedin"
-		name = "linkedin"
-		title = "github"
-		url = "https://www.linkedin.com/in/antgubarev/"
-		weight = 20
-		[languages.ru.menu.main.params]
-			target = "_blank"
+		identifier = "talks"
+		name = "Выступления"
+		title = "Выступления"
+		url = "/ru/tags/talk/"
+		weight = 1
 
 	  [[languages.ru.menu.main]]
 		identifier = "cv"
 		name = "CV"
-		title = "cv"
+		title = "CV"
 		url = "https://drive.google.com/file/d/1O2KRaw0AKy5mDJxwVaWim1jpYyj9LeVo/view?usp=sharing"
 		weight = 30
 		[languages.ru.menu.main.params]
@@ -96,9 +71,29 @@ baseURL = "https://antgubarev.tech"
 [params]
   description = "Anton Gubarev's personal website"
   copyright = "Copyright © 2023 Anton Gubarev"
-  dark = "auto"
+  dark = "off"
   highlight = true
   ymCode = "92567493"
+  
+   [[params.social]]
+		name = "Github"
+		icon = "fa-brands fa-github-alt"
+		weight = 1
+		url = "https://github.com/antgubarev"
+		target="_blank"
+	[[params.social]]
+		name = "LinkedIn"
+		icon = "fa-brands fa-linkedin-in"
+		weight = 2
+		url = "https://www.linkedin.com/in/antgubarev/"
+		target="_blank"
+
+	[[params.social]]
+		name = "Telegram"
+		icon = "fa-brands fa-telegram"
+		weight = 3
+		url = "https://t.me/devlead"
+		target="_blank"
 
 [permalinks]
   posts = "/:year/:month/:slug/"

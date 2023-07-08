@@ -2,7 +2,7 @@
 title: Автоматизация с NeoVim. Treesitter или теги в GO
 date: 2023-03-13
 slug: avito-tech-3
-tags: ["video", "vim"]
+tags: ["webinar"]
 ---
 
 Расскажу как работать с Treesitter — утилитой для парсинга кода. На простом примере покажy, как добавлять и удалять теги из структур в Golang.

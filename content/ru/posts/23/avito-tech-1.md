@@ -2,7 +2,7 @@
 title: Автоматизация с NeoVim. Удяляем лишние символы.
 date: 2023-02-10
 slug: avito-tech-1
-tags: ["video", "vim"]
+tags: ["webinar"]
 ---
 
 Первое видео из трех про расширение возможностей NeoVim с помощью Lua.

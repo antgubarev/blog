@@ -2,7 +2,7 @@
 title: NeoVim как IDE для Golang и не только 
 date: 2022-06-30
 slug: evrone-golang-vim 
-tags: ["video", "vim"]
+tags: ["talk"]
 ---
 Доклад на митапе про Vim как IDE для golang разработчика
 
