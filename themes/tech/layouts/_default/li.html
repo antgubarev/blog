@@ -1,7 +1,19 @@
 <li>
-    <a href="{{ .Permalink }}">{{ .Title }}</a><br>
-    <small><time>{{ .Date | time.Format (i18n "posts.date") }}</time></small>
-    <div class="summary">
-        {{ .Summary }}
+	{{- if isset .Params "remote_link" }}
+	<a href="{{ .Params.remote_link }}" target="_blank">{{ .Title }}</a><br>
+	{{- else }}
+   <a href="{{ .Permalink }}">{{ .Title }}</a><br>
+	{{- end }}
+   <small><time>{{ .Date | time.Format (i18n "posts.date") }}</time></small>
+   <div class="summary">
+		{{ .Summary }}
+		{{- if isset .Params "preview_image" }}
+		{{ $image := .Resources.GetMatch .Params.preview_image }}
+		<p>
+			<a href="{{ .Params.remote_link }}" target="_blank">
+				<img src="{{ $image.RelPermalink }}">
+			</a>
+		</p>
+		{{- end}}
     </div>
 </li>
