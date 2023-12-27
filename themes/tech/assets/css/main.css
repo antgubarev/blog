@@ -8,15 +8,37 @@ html {
     font-size: 62.5%;
 }
 
+@font-face {
+    font-family: "FiraCode-Regular";
+    src: url('../webfonts/FiraCode-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "FiraCode-Medium";
+    src: url('../webfonts/FiraCode-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "FiraCode-Light";
+    src: url('../webfonts/FiraCode-Light.ttf') format('truetype');
+}
+
+
+@font-face {
+    font-family: "FiraCode-SemiBold";
+    src: url('../webfonts/FiraCode-SemiBold.ttf') format('truetype');
+}
+
 body {
     font-size: 16px;
     font-size: 1.6rem;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: Arial;
+	 line-height: 20px;
     color: #313a3d;
     width: 100%;
     margin: 0 auto;
     padding: 0 16px;
-    line-height: 1.6;
+    /* line-height: 1.6; */
     overflow-wrap: break-word;
 }
 
@@ -50,7 +72,7 @@ header#banner nav {
 
 header#banner nav ul {
     list-style-type: none;
-    font-size: 1.05em;
+    font-size: 0.9em;
     margin: 0;
     padding: 0;
 }
@@ -62,6 +84,11 @@ header#banner nav ul li {
 
 header#banner nav ul li a {
     color: #313a3d;
+}
+
+header#banner nav.main-menu ul li a {
+    color: #313a3d;
+	 text-decoration: underline;
 }
 
 main#content a {
