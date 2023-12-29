@@ -37,7 +37,7 @@ baseURL = "https://antgubarev.tech"
     weight = 2
 
   [languages.ru.menu]
-	  
+
 	  [[languages.ru.menu.main]]
 		identifier = "webinars"
 		name = "Вебинары"
@@ -50,7 +50,21 @@ baseURL = "https://antgubarev.tech"
 		name = "Выступления"
 		title = "Выступления"
 		url = "/ru/tags/talk/"
-		weight = 1
+		weight = 2
+
+	  [[languages.ru.menu.main]]
+		identifier = "posts"
+		name = "Статьи"
+		title = "Статьи"
+		url = "/ru/tags/post/"
+		weight = 3
+
+	  [[languages.ru.menu.main]]
+		identifier = "about"
+		name = "Обо мне"
+		title = "Обо мне"
+		url = "/ru/about/"
+		weight = 4
 
 	  [[languages.ru.menu.main]]
 		identifier = "cv"
@@ -74,7 +88,7 @@ baseURL = "https://antgubarev.tech"
   dark = "off"
   highlight = true
   ymCode = "92567493"
-  
+
    [[params.social]]
 		name = "Github"
 		icon = "fa-brands fa-github-alt"

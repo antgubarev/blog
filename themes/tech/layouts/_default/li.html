@@ -4,7 +4,12 @@
 	{{- else }}
    <a href="{{ .Permalink }}">{{ .Title }}</a><br>
 	{{- end }}
-   <small><time>{{ .Date | time.Format (i18n "posts.date") }}</time></small>
+	<small>{{ .Date | time.Format (i18n "posts.date") }}</small>
+	{{ with .Params.tags }}
+		{{ range . }}
+		<a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}"><small>#{{ . }}</small></a>
+		{{ end }}
+	{{ end }}
    <div class="summary">
 		{{ .Summary }}
 		{{- if isset .Params "preview_image" }}

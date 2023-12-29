@@ -6,8 +6,9 @@
 
 
 <h2>Последнее</h2>
+<br/>
 <ul id="posts" class="posts">
-{{- range first 4 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
+{{- range first 20 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
     {{ .Render "li" }}
 {{- end }}
 </ul>
