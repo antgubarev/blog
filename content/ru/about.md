@@ -1,12 +1,6 @@
----
-title: Обо мне
----
-
 ![hl2023](/hl2023.jpg)
 
-# Обо мне
-
-Инженер и техлид c 2010 года. Занимаюсь сервисной инфраструктурой:
+Инженер и техлид [c 2010 года (CV)](https://drive.google.com/file/d/1O2KRaw0AKy5mDJxwVaWim1jpYyj9LeVo/view?usp=sharing). Занимаюсь сервисной инфраструктурой:
 
 - service mesh
 - api gateway

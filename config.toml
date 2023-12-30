@@ -32,31 +32,31 @@ baseURL = "https://antgubarev.tech"
 		 weight = 40
 
   [languages.ru]
-    title = 'Anton Gubarev'
+   title = 'Антон Губарев'
 	contentDir = "content/ru"
-    weight = 2
+   weight = 2
 
   [languages.ru.menu]
-
-	  [[languages.ru.menu.main]]
-		identifier = "webinars"
-		name = "Вебинары"
-		title = "Вебинары"
-		url = "/ru/tags/webinar/"
-		weight = 1
-
-	  [[languages.ru.menu.main]]
-		identifier = "talks"
-		name = "Выступления"
-		title = "Выступления"
-		url = "/ru/tags/talk/"
-		weight = 2
 
 	  [[languages.ru.menu.main]]
 		identifier = "posts"
 		name = "Статьи"
 		title = "Статьи"
 		url = "/ru/tags/post/"
+		weight = 1
+
+	  [[languages.ru.menu.main]]
+		identifier = "webinars"
+		name = "Вебинары"
+		title = "Вебинары"
+		url = "/ru/tags/webinar/"
+		weight = 2
+
+	  [[languages.ru.menu.main]]
+		identifier = "talks"
+		name = "Выступления"
+		title = "Выступления"
+		url = "/ru/tags/talk/"
 		weight = 3
 
 	  [[languages.ru.menu.main]]
@@ -67,13 +67,11 @@ baseURL = "https://antgubarev.tech"
 		weight = 4
 
 	  [[languages.ru.menu.main]]
-		identifier = "cv"
-		name = "CV"
-		title = "CV"
-		url = "https://drive.google.com/file/d/1O2KRaw0AKy5mDJxwVaWim1jpYyj9LeVo/view?usp=sharing"
+		identifier = "rss"
+		name = "RSS"
+		title = "RSS"
+		url = "/ru/index.xml"
 		weight = 30
-		[languages.ru.menu.main.params]
-			target = "_blank"
 
 	  [[languages.ru.menu.main]]
 		 identifier = "en"
@@ -90,7 +88,7 @@ baseURL = "https://antgubarev.tech"
   ymCode = "92567493"
 
    [[params.social]]
-		name = "Github"
+		name = "GitHub"
 		icon = "fa-brands fa-github-alt"
 		weight = 1
 		url = "https://github.com/antgubarev"
@@ -103,7 +101,7 @@ baseURL = "https://antgubarev.tech"
 		target="_blank"
 
 	[[params.social]]
-		name = "Telegram"
+		name = "Техлидошная"
 		icon = "fa-brands fa-telegram"
 		weight = 3
 		url = "https://t.me/devlead"

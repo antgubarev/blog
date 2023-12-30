@@ -1,18 +1,8 @@
 {{ define "main" }}
+
 {{ .Content }}
 
-{{ $posts := (where .Site.RegularPages "Section" "==" "posts") }}
-{{ if gt (len $posts) 0 }}
-
-
-<h2>Последнее</h2>
-<br/>
-<ul id="posts" class="posts">
-{{- range first 20 (where site.RegularPages "Type" "in" site.Params.mainSections) }}
-    {{ .Render "li" }}
-{{- end }}
-</ul>
-{{end}}
+{{ partial "posts.html" . }}
 
 {{- partial "ym.html" . -}}
 {{ end }}

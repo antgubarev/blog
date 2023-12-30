@@ -1,9 +1,21 @@
-{{ $posts := (where .Site.RegularPages "Section" "==" "posts") }}
-{{ if gt (len $posts) 0 }}
-<h3>{{ i18n "posts.title" }}</h3>
+{{ .Content }}
+{{ $paginator := .Paginate (where .Site.RegularPages "Section" "==" "posts") }}
 <ul id="posts" class="posts">
-{{- range where site.RegularPages "Type" "in" site.Params.mainSections }}
+{{- range $paginator.Pages }}
     {{ .Render "li" }}
 {{- end }}
 </ul>
-{{end}}
+
+<div class="pagination">
+{{ if .Paginator.HasPrev }}
+	<div class="left">
+		<a href="{{ .Paginator.Prev.URL }}">Обратно</a>
+	</div>
+{{ end }}
+page {{ .Paginator.PageNumber }} of {{ .Paginator.TotalPages }}
+{{ if .Paginator.HasNext }}
+	<div class="right">
+		<a href="{{ .Paginator.Next.URL }}">Дальше</a>
+	</div>
+{{ end }}
+</div>

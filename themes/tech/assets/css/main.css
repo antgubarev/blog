@@ -35,11 +35,11 @@ body {
     font-family: Arial;
 	 line-height: 20px;
     color: #313a3d;
-    width: 100%;
     margin: 0 auto;
     padding: 0 16px;
-    /* line-height: 1.6; */
     overflow-wrap: break-word;
+    width: 700px;
+    line-height: 23px;
 }
 
 header#banner {
@@ -63,6 +63,17 @@ header#banner h2 {
     margin: 0 8px 0 0;
 }
 
+header#banner .logo {
+	width: 100%;
+	text-align: center;
+	margin: 20px 0;
+}
+
+header#banner img {
+	border-radius: 50%;
+	max-height: 100px;
+}
+
 header#banner nav {
     display: block;
     text-align: center;
@@ -79,7 +90,7 @@ header#banner nav ul {
 
 header#banner nav ul li {
     display: inline;
-    margin: 0 3px;
+    margin: 0 8px;
 }
 
 header#banner nav ul li a {
@@ -112,7 +123,9 @@ main#content h6 {
 
 main#content h3 {
     font-size: 19px;
-    font-size: 1.9rem;
+    font-size: 2.9rem;
+	 text-align: center;
+	 margin-bottom: 20px;
 }
 
 main#content h1+p,
@@ -122,6 +135,10 @@ main#content h4+p,
 main#content h5+p,
 main#content h6+p {
     margin-top: 5px;
+}
+
+main#content .intro {
+	text-align: center;
 }
 
 main#content p {
@@ -144,7 +161,7 @@ main#content ul#posts {
     list-style-type: none;
     font-size: 16px;
     font-size: 1.6rem;
-    margin-top: 0;
+    margin-top: 30px;
     padding: 0;
 }
 
@@ -312,6 +329,19 @@ main#content pre code {
     padding: 0;
 }
 
+main#content .pagination {
+	width: 100%;
+	text-align: center;
+}
+
+main#content .pagination .left {
+    float: left;
+}
+
+main#content .pagination .right {
+    float: right;
+}
+
 main#content .footnotes {
     font-size: 0.9em;
 }
@@ -322,4 +352,5 @@ footer#footer {
     font-weight: 400;
     color: #b3b3b3;
     margin: 40px 0;
+	 text-align: center;
 }
