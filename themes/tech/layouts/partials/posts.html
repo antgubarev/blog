@@ -1,4 +1,3 @@
-{{ .Content }}
 {{ $paginator := .Paginate (where .Site.RegularPages "Section" "==" "posts") }}
 <ul id="posts" class="posts">
 {{- range $paginator.Pages }}
