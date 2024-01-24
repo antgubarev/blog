@@ -8,27 +8,6 @@ html {
     font-size: 62.5%;
 }
 
-@font-face {
-    font-family: "FiraCode-Regular";
-    src: url('../webfonts/FiraCode-Regular.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "FiraCode-Medium";
-    src: url('../webfonts/FiraCode-Medium.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: "FiraCode-Light";
-    src: url('../webfonts/FiraCode-Light.ttf') format('truetype');
-}
-
-
-@font-face {
-    font-family: "FiraCode-SemiBold";
-    src: url('../webfonts/FiraCode-SemiBold.ttf') format('truetype');
-}
-
 body {
     font-size: 16px;
     font-size: 1.6rem;
