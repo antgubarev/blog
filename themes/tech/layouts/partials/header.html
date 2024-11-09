@@ -1,32 +1,23 @@
 <header id="banner">
     <h2><a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}">{{ .Site.Title }}</a></h2>
 
-	 <div class="logo">
-		 <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}">
-			<img src="{{ (resources.Get "/img/logo.jpg").RelPermalink }}" />
-		 </a>
-	 </div>
+    <div class="logo">
+        <a href="{{ .Site.BaseURL }}/{{ .Site.Language.Lang }}">
+            <img src="{{ (resources.Get "/img/logo.jpg").RelPermalink }}" />
+        </a>
+    </div>
 
     <nav>
         {{ with .Site.Params.social }}
         <ul>
             {{ range sort . "weight" }}
-            {{ if .icon }}
-            <li>
-                <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}" {{ end }} {{ if
-                    .target }}target="{{ .target }}" {{ end }} {{ if .type }}type="{{ .type }}" {{ end }}>
-                    <i class="{{ .icon }}" aria-hidden="true"></i>
-                {{ .name }}</a>
-            </li>
-            {{ else }}
             <li>
                 <a href="{{ .url | safeURL }}" aria-label="{{ .name }}" {{ if .rel }}rel="{{ .rel }}" {{ end }} {{ if
                     .target }}target="{{ .target }}" {{ end }}>{{ .name }}</a>
             </li>
             {{ end }}
-            {{ end }}
-            {{ end }}
         </ul>
+        {{ end }}
     </nav>
 
     <nav class="main-menu">
@@ -36,9 +27,6 @@
                 {{ .Pre }}
                 <a href="{{ .URL }}" title="{{ .Title }}" {{ if (isset .Params "target" ) }}
                     target="{{ .Params.Target }}" {{ end }}>
-                    {{ if (isset .Params "icon" ) }} <i class="fa-solid fa-user"></i> {{ end }}
-                    {{ $icon := .Params.icon }}
-                    <i class="{{ $icon }}"></i>
                     {{- .Name -}}
                 </a>
                 {{ .Post }}
@@ -46,6 +34,4 @@
             {{- end }}
         </ul>
     </nav>
-
-
 </header>

@@ -22,11 +22,6 @@
     {{ $resources = $resources | append (resources.Get "css/dark.css" | resources.ExecuteAsTemplate "dark.css" .) -}}
     {{ end -}}
 
-    <!-- fonts -->
-    {{ $resources = $resources | append (resources.Get "css/fontawesome.min.css") -}}
-    {{ $resources = $resources | append (resources.Get "css/fonts.regular.min.css") -}}
-    {{ $resources = $resources | append (resources.Get "css/fonts.brands.min.css") -}}
-
     {{ if .Site.Params.highlight -}}
     {{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
     {{ end -}}

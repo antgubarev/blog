@@ -54,8 +54,8 @@ baseURL = "https://antgubarev.tech"
 
 	  [[languages.ru.menu.main]]
 		identifier = "talks"
-		name = "Выступления"
-		title = "Выступления"
+		name = "Доклады"
+		title = "Доклады"
 		url = "/ru/tags/talk/"
 		weight = 3
 
@@ -82,27 +82,30 @@ baseURL = "https://antgubarev.tech"
 
 [params]
   description = "Anton Gubarev's personal website"
-  copyright = "Copyright © 2023 Anton Gubarev"
+  copyright = "Copyright © 2024 Anton Gubarev"
   dark = "off"
   highlight = true
   ymCode = "92567493"
 
    [[params.social]]
 		name = "GitHub"
-		icon = "fa-brands fa-github-alt"
 		weight = 1
 		url = "https://github.com/antgubarev"
 		target="_blank"
 	[[params.social]]
 		name = "LinkedIn"
-		icon = "fa-brands fa-linkedin-in"
 		weight = 2
 		url = "https://www.linkedin.com/in/antgubarev/"
 		target="_blank"
 
 	[[params.social]]
+		name = "GetMentor"
+		weight = 3
+		url = "https://getmentor.dev/mentor/anton-gubarev-2900"
+		target="_blank"
+
+	[[params.social]]
 		name = "Техлидошная"
-		icon = "fa-brands fa-telegram"
 		weight = 3
 		url = "https://t.me/devlead"
 		target="_blank"
